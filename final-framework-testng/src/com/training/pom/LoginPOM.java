@@ -35,4 +35,9 @@ public class LoginPOM {
 	public void clickLoginBtn() {
 		this.loginBtn.click(); 
 	}
+
+	public void clickSubmitBtn() {
+		// TODO Auto-generated method stub
+		this.submitBtn.click(); 
+	}
 }
