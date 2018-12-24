@@ -13,14 +13,15 @@ public class LoginPOM {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(id="login")
+	@FindBy(id="cyclosUsername")
 	private WebElement userName; 
 	
-	@FindBy(id="password")
+	@FindBy(id="cyclosPassword")
 	private WebElement password;
 	
-	@FindBy(id="formLogin_submitAuth")
+	@FindBy(xpath="//table[@class='nested']/tbody/tr[3]//input")
 	private WebElement loginBtn; 
+	
 	
 	public void sendUserName(String userName) {
 		this.userName.clear();
@@ -36,8 +37,5 @@ public class LoginPOM {
 		this.loginBtn.click(); 
 	}
 
-	public void clickSubmitBtn() {
-		// TODO Auto-generated method stub
-		this.submitBtn.click(); 
-	}
+	
 }
