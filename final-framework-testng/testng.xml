@@ -4,11 +4,11 @@
 <suite name = "Sample test Suite">
    <test name = "Sample test">
       <classes>
-         <class name = "com.training.sanity.tests.TC001" />
-         <class name = "com.training.sanity.tests.TC002" />
-         <class name = "com.training.sanity.tests.TC003" />
-         <class name = "com.training.sanity.tests.TC004" />
-         <class name = "com.training.sanity.tests.TC005" />
+      	 <class name = "com.training.sanity.tests.wk2_CYTC_041"/>
+         <class name = "com.training.sanity.tests.wk2_CYTC_042"/>
+         <class name = "com.training.sanity.tests.wk2_CYTC_043"/>
+         <class name = "com.training.sanity.tests.wk2_CYTC_044"/>
+         <class name = "com.training.sanity.tests.wk2_CYTC_045"/>
       </classes>
    </test>
 </suite>	

@@ -15,7 +15,7 @@ import com.training.pom.LoginPOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
-
+//Checking error message for changing password when new and confirm password are different 
 public class TC001 {
 	
 	private WebDriver driver;

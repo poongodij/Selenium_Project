@@ -15,6 +15,7 @@ import com.training.pom.LoginPOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
+//Inserting new advertisement
 public class TC004 {
 	
 	private WebDriver driver;

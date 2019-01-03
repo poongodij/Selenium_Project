@@ -15,6 +15,7 @@ import com.training.pom.LoginPOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
+//Changing Member Login password
 public class TC003 {
 	private WebDriver driver;
 	private String baseUrl;

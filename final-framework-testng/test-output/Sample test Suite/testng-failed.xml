@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Sample test Suite]">
-  <test name="Sample test(failed)">
+  <test thread-count="5" name="Sample test(failed)">
     <classes>
-      <class name="com.training.regression.tests.LoginDBTest">
+      <class name="com.training.sanity.tests.wk2_CYTC_044">
         <methods>
-          <include name="tearDown"/>
-          <include name="loginDBTest"/>
           <include name="setUp"/>
           <include name="setUpBeforeClass"/>
+          <include name="AcccountInfoView"/>
         </methods>
-      </class> <!-- com.training.regression.tests.LoginDBTest -->
+      </class> <!-- com.training.sanity.tests.wk2_CYTC_044 -->
     </classes>
   </test> <!-- Sample test(failed) -->
 </suite> <!-- Failed suite [Sample test Suite] -->

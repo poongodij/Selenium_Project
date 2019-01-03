@@ -1,81 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="95522" started-at="2018-12-24T11:38:52Z" finished-at="2018-12-24T11:40:27Z">
+  <suite name="Default suite" duration-ms="52061" started-at="2019-01-03T05:10:13Z" finished-at="2019-01-03T05:11:05Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="95522" started-at="2018-12-24T11:38:52Z" finished-at="2018-12-24T11:40:27Z">
-      <class name="com.training.sanity.tests.TC003">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.TC003@77caeb3e]" name="setUpBeforeClass" is-config="true" duration-ms="12" started-at="2018-12-24T11:39:26Z" finished-at="2018-12-24T11:39:27Z">
+    <test name="Default test" duration-ms="52061" started-at="2019-01-03T05:10:13Z" finished-at="2019-01-03T05:11:05Z">
+      <class name="com.training.sanity.tests.wk2_CYTC_044">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.wk2_CYTC_044@59f99ea]" name="setUpBeforeClass" is-config="true" duration-ms="20" started-at="2019-01-03T05:10:13Z" finished-at="2019-01-03T05:10:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.TC003@77caeb3e]" name="setUp" is-config="true" duration-ms="4448" started-at="2018-12-24T11:39:27Z" finished-at="2018-12-24T11:39:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.wk2_CYTC_044@59f99ea]" name="setUp" is-config="true" duration-ms="9506" started-at="2019-01-03T05:10:13Z" finished-at="2019-01-03T05:10:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="mbrLogin()[pri:0, instance:com.training.sanity.tests.TC003@77caeb3e]" name="mbrLogin" duration-ms="14638" started-at="2018-12-24T11:39:31Z" finished-at="2018-12-24T11:39:46Z">
+        <test-method status="PASS" signature="AcccountInfoView()[pri:0, instance:com.training.sanity.tests.wk2_CYTC_044@59f99ea]" name="AcccountInfoView" duration-ms="42515" started-at="2019-01-03T05:10:22Z" finished-at="2019-01-03T05:11:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mbrLogin -->
-      </class> <!-- com.training.sanity.tests.TC003 -->
-      <class name="com.training.sanity.tests.TC004">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.TC004@1e88b3c]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2018-12-24T11:39:46Z" finished-at="2018-12-24T11:39:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.TC004@1e88b3c]" name="setUp" is-config="true" duration-ms="4685" started-at="2018-12-24T11:39:46Z" finished-at="2018-12-24T11:39:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="newAdvt()[pri:0, instance:com.training.sanity.tests.TC004@1e88b3c]" name="newAdvt" duration-ms="18155" started-at="2018-12-24T11:39:50Z" finished-at="2018-12-24T11:40:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newAdvt -->
-      </class> <!-- com.training.sanity.tests.TC004 -->
-      <class name="com.training.sanity.tests.TC001">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.TC001@3e6fa38a]" name="setUpBeforeClass" is-config="true" duration-ms="25" started-at="2018-12-24T11:38:52Z" finished-at="2018-12-24T11:38:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.TC001@3e6fa38a]" name="setUp" is-config="true" duration-ms="5300" started-at="2018-12-24T11:38:52Z" finished-at="2018-12-24T11:38:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="changePwdTest()[pri:0, instance:com.training.sanity.tests.TC001@3e6fa38a]" name="changePwdTest" duration-ms="18306" started-at="2018-12-24T11:38:57Z" finished-at="2018-12-24T11:39:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changePwdTest -->
-      </class> <!-- com.training.sanity.tests.TC001 -->
-      <class name="com.training.sanity.tests.TC002">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.TC002@66a3ffec]" name="setUpBeforeClass" is-config="true" duration-ms="2" started-at="2018-12-24T11:39:15Z" finished-at="2018-12-24T11:39:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.TC002@66a3ffec]" name="setUp" is-config="true" duration-ms="3982" started-at="2018-12-24T11:39:15Z" finished-at="2018-12-24T11:39:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Logout()[pri:0, instance:com.training.sanity.tests.TC002@66a3ffec]" name="Logout" duration-ms="7108" started-at="2018-12-24T11:39:19Z" finished-at="2018-12-24T11:39:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout -->
-      </class> <!-- com.training.sanity.tests.TC002 -->
-      <class name="com.training.sanity.tests.TC005">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.TC005@42d80b78]" name="setUpBeforeClass" is-config="true" duration-ms="4" started-at="2018-12-24T11:40:08Z" finished-at="2018-12-24T11:40:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.TC005@42d80b78]" name="setUp" is-config="true" duration-ms="5253" started-at="2018-12-24T11:40:08Z" finished-at="2018-12-24T11:40:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="removeAdvt()[pri:0, instance:com.training.sanity.tests.TC005@42d80b78]" name="removeAdvt" duration-ms="13540" started-at="2018-12-24T11:40:14Z" finished-at="2018-12-24T11:40:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeAdvt -->
-      </class> <!-- com.training.sanity.tests.TC005 -->
-    </test> <!-- Sample test -->
-  </suite> <!-- Sample test Suite -->
+        </test-method> <!-- AcccountInfoView -->
+      </class> <!-- com.training.sanity.tests.wk2_CYTC_044 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

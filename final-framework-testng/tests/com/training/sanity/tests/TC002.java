@@ -15,6 +15,7 @@ import com.training.pom.LoginPOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
+//Login and logout from Cyclos application
 public class TC002 {
 	
 	private WebDriver driver;
